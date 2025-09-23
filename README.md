@@ -3,7 +3,7 @@
 - Điều khiển và hiển thị trạng thái Spotify bằng **ESP32-C3 + OLED SSD1306**.  
 - Dự án sử dụng **Spotify Web API**, với token được cấp phát từ script Python (PKCE) và gửi sang ESP32 qua HTTP.
 - LƯU Ý: ĐỂ DÙNG FULL TÍNH NĂNG (HẦU HẾT TÍNH NĂNG) YÊU CẦU TÀI KHOẢN SPOTIFY PHẢI LÀ PREMIUM!!!
-
+![Ảnh PJ](Demo.png)
 ---
 
 ## ✨ Tính năng
