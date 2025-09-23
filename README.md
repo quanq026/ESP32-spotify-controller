@@ -1,8 +1,8 @@
 # 🎵 ESP32-C3 Spotify Remote
 
-Điều khiển và hiển thị trạng thái Spotify bằng **ESP32-C3 + OLED SSD1306**.  
-Dự án sử dụng **Spotify Web API**, với token được cấp phát từ script Python (PKCE) và gửi sang ESP32 qua HTTP.
-LƯU Ý: ĐỂ DÙNG FULL TÍNH NĂNG (HẦU HẾT TÍNH NĂNG) YÊU CẦU TÀI KHOẢN SPOTIFY PHẢI LÀ PREMIUM!!!
+- Điều khiển và hiển thị trạng thái Spotify bằng **ESP32-C3 + OLED SSD1306**.  
+- Dự án sử dụng **Spotify Web API**, với token được cấp phát từ script Python (PKCE) và gửi sang ESP32 qua HTTP.
+- LƯU Ý: ĐỂ DÙNG FULL TÍNH NĂNG (HẦU HẾT TÍNH NĂNG) YÊU CẦU TÀI KHOẢN SPOTIFY PHẢI LÀ PREMIUM!!!
 
 ---
 
@@ -75,7 +75,7 @@ Dưới đây là 2 cách bạn có thể lựa chọn:
    - **Refresh Token**: Dán refresh token (nếu có).  
    - **WiFi SSID/Password**: Nhập thông tin WiFi STA để ESP32 tự kết nối.  
 5. Bấm **Save** → ESP32 sẽ lưu cấu hình và tự động reboot.
-Chú ý: bạn có 2 cách để truy cập web config:
+* Chú ý: bạn có 2 cách để truy cập web config:
 - 1 là truy cập vào AP ESP32C3_Config rồi nhập http://192.168.4.1
 - 2 là kết nối cùng với wifi của ESP32 rồi kiểm tra ip STA khi khởi động ESP32 rồi vào web nhập ip hiện lên trên màn hình OLED (cách này sẽ tiện hơn)
 
