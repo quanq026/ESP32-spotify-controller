@@ -67,7 +67,7 @@
 9. Jack type C cái loại 2 dây [https://shopee.vn/Jack-type-C-%C4%91%E1%BA%A7u-c%C3%A1i-(-%C4%91%E1%BA%A7u-c%E1%BA%AFm-N%E1%BB%AF)-ch%E1%BA%BF-s%E1%BA%A1c-ch%E1%BA%BF-loa-diy-c%E1%BB%B1c-d%E1%BB%85-la%CC%80m-i.121774202.17998407987?sp_atk=865da5e9-a789-44c7-a24e-507e3f657d9e&xptdk=865da5e9-a789-44c7-a24e-507e3f657d9e]
 ## 3,2. Sơ đồ mạch
 
-![Sơ đồ mạch](Sơ%20đồ%20mạch.png)
+![Sơ đồ mạch](Sơ%20Đồ%20Mạch2.png)
 
 ## 3,3. Công cụ nên có
 - Đồ nghề hàn (máy hàn, thiếc, nhựa thông, bọt biển, bông sắt).
