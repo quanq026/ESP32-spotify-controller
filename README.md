@@ -2,6 +2,7 @@
 
 Điều khiển và hiển thị trạng thái Spotify bằng **ESP32-C3 + OLED SSD1306**.  
 Dự án sử dụng **Spotify Web API**, với token được cấp phát từ script Python (PKCE) và gửi sang ESP32 qua HTTP.
+LƯU Ý: ĐỂ DÙNG FULL TÍNH NĂNG (HẦU HẾT TÍNH NĂNG) YÊU CẦU TÀI KHOẢN SPOTIFY PHẢI LÀ PREMIUM!!!
 
 ---
 
@@ -107,6 +108,7 @@ preferences.end();
   ## 5️⃣ Cách lấy Client ID / Client Secret cho Spotify
 
 Để script Python (`spotify_pkce_esp32.py`) hoạt động, bạn cần có **Client ID** và **Client Secret** từ Spotify Developer.
+![Web Config](web%20config.jpg)
 
 ### 5. Cách lấy Client ID / Client Secret để đưa vào send.py để tạo token
 1. Vào trang [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).  
@@ -122,7 +124,7 @@ preferences.end();
      http://127.0.0.1:8000/callback
      ```
    - Nhấn **Save**.
-
+![Dashboard](Spotify%20Dev.png)
 ### Thêm vào file Python
 Mở file `send.py` và sửa 2 dòng sau:
 
