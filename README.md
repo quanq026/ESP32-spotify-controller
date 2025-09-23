@@ -56,7 +56,7 @@
   3. Gửi token sang ESP32 qua HTTP (`/set-config`).
 
 ## 3,1. Linh kiện cần chuẩn bị
-1. Các công cụ hàn cần thiết
+1. 3D case
 2. 4 con ốc m3 10mm [https://shopee.vn/%E1%BB%90c-V%C3%ADt-%C4%90%E1%BA%A7u-D%E1%BA%B9t-inox-304-%E1%BB%90c-v%C3%ADt-%C4%91%E1%BA%A7u-pake-d%E1%BA%B9p-m%E1%BB%8Fng-ph%E1%BA%B3ng-V%C3%ADt-M3-M4-M5-i.823408794.21450012113]
 3. ESP32-C3 Super mini [https://shopee.vn/Samirob-ESP32-C3-ESP32-S3-ESP32-H2-ESP32-C6-Ban-Ph%C3%A1t-Tri%E1%BB%83n-ESP32-C3-SuperMini-WiFi-Bluetooth-ESP32C3-B%E1%BA%A3ng-M%E1%BB%9F-R%E1%BB%99ng-i.578443443.24400570619]
 4. Oled 0.96 icnh [https://shopee.vn/M%C3%B4-%C4%90un-Hi%E1%BB%83N-Th%E1%BB%8B-OLED-4pin-7pin-0.96-IIC-I2C-OLED-0.96-inch-128X64-OLED-0.96-IIC-I2C-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-arduino-i.578443443.23972641115]
@@ -64,8 +64,7 @@
 6. 4 swicth cơ (tùy sở thích cá nhân)
 7. Mạch sạc TP4056 [https://shopee.vn/-L%E1%BA%ADp-Tr%C3%ACnh-Nh%C3%BAng-A-Z-155-M%E1%BA%A1ch-S%E1%BA%A1c-Pin-Lithium-TP4056-1A-C%E1%BB%95ng-Type-C-C%C3%B3-B%E1%BA%A3o-V%E1%BB%87-Pin-i.107147748.29590726472?sp_atk=985e49b4-1ac7-4f4e-a482-5bb3186ef46d&xptdk=985e49b4-1ac7-4f4e-a482-5bb3186ef46d]
 8. Pin 702530 500 mAh [https://shopee.vn/-L%E1%BA%ADp-Tr%C3%ACnh-Nh%C3%BAng-A-Z-Pin-lithium-3.7v-C%C3%B3-M%E1%BA%A1ch-B%E1%BA%A3o-V%E1%BB%87-Nhi%E1%BB%81u-Lo%E1%BA%A1i-i.107147748.24844147461]
-9. 3D case
-10. Jack type C cái loại 2 dây [https://shopee.vn/Jack-type-C-%C4%91%E1%BA%A7u-c%C3%A1i-(-%C4%91%E1%BA%A7u-c%E1%BA%AFm-N%E1%BB%AF)-ch%E1%BA%BF-s%E1%BA%A1c-ch%E1%BA%BF-loa-diy-c%E1%BB%B1c-d%E1%BB%85-la%CC%80m-i.121774202.17998407987?sp_atk=865da5e9-a789-44c7-a24e-507e3f657d9e&xptdk=865da5e9-a789-44c7-a24e-507e3f657d9e]
+9. Jack type C cái loại 2 dây [https://shopee.vn/Jack-type-C-%C4%91%E1%BA%A7u-c%C3%A1i-(-%C4%91%E1%BA%A7u-c%E1%BA%AFm-N%E1%BB%AF)-ch%E1%BA%BF-s%E1%BA%A1c-ch%E1%BA%BF-loa-diy-c%E1%BB%B1c-d%E1%BB%85-la%CC%80m-i.121774202.17998407987?sp_atk=865da5e9-a789-44c7-a24e-507e3f657d9e&xptdk=865da5e9-a789-44c7-a24e-507e3f657d9e]
 ## 3,2. Sơ đồ mạch
 
 ![Sơ đồ mạch](Sơ%20đồ%20mạch.png)
