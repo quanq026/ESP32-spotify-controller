@@ -12,7 +12,7 @@
   - ⏮️ Bài trước
   - ⏯️ Play / Pause
   - ⏭️ Bài tiếp
-  - ❤️ Like / Unlike
+  - ❤️ Like / Dislike song
 - Thanh progress bar trực quan.
 - ~~Tự động làm mới token khi hết hạn (refresh token).~~ (hiện đang bảo trì, dùng file send.py)
 ---
