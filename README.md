@@ -60,5 +60,5 @@ Dự án sử dụng **Spotify Web API**, với token được cấp phát từ 
 
 ## 3. Sơ đồ mạch
 
-![Sơ đồ mạch](Sơ đồ mạch.png)
+(![Sơ đồ mạch](Sơ%20đồ%20mạch.png))
 
