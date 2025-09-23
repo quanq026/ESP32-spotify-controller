@@ -13,8 +13,8 @@ import requests
 # ======================
 # Config
 # ======================
-CLIENT_ID = "8b3fc1403b66432ebb25bc9faf2e3de0"
-CLIENT_SECRET = "8fcf7a30219644378e89a34bb4f71b77"
+CLIENT_ID = "xxx"
+CLIENT_SECRET = "yyy"
 REDIRECT_URI = "http://127.0.0.1:8000/callback"
 SCOPES = [
     "user-read-playback-state",
@@ -152,3 +152,4 @@ if __name__ == "__main__":
     if os.path.exists(TOKEN_FILE):
         os.remove(TOKEN_FILE)
     do_pkce_authorize()
+
