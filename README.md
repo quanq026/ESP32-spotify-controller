@@ -70,13 +70,13 @@
 ![Sơ đồ mạch](Sơ%20đồ%20mạch.png)
 
 ## 3,3. Công cụ nên có
-- Đồ nghề hàn (máy hàn, thiếc, nhựa thông, bọt biển, bông sắt)
-- Nhíp bé
-- Khẩu trang
-- Keo nến
-- Tua vít
-- Dụng cụ tuốt dây
-- rất nhiều dây để nối linh kiện
+- Đồ nghề hàn (máy hàn, thiếc, nhựa thông, bọt biển, bông sắt).
+- Nhíp bé.
+- Khẩu trang.
+- Keo nến.
+- Tua vít.
+- Dụng cụ tuốt dây.
+- rất nhiều dây để nối linh kiện.
 ## 4️. Hướng dẫn cấu hình (Configuration Guide)
 
 ESP32-C3 hỗ trợ cấu hình bằng **Web UI** hoặc **Python script**.  
@@ -94,8 +94,8 @@ Dưới đây là 2 cách bạn có thể lựa chọn:
    - **WiFi SSID/Password**: Nhập thông tin WiFi STA để ESP32 tự kết nối.  
 5. Bấm **Save** → ESP32 sẽ lưu cấu hình và tự động reboot.
 * Chú ý: bạn có 2 cách để truy cập web config:
-- 1 là truy cập vào AP ESP32C3_Config rồi nhập http://192.168.4.1
-- 2 là kết nối cùng với wifi của ESP32 rồi kiểm tra ip STA khi khởi động ESP32 rồi vào web nhập ip hiện lên trên màn hình OLED (cách này sẽ tiện hơn)
+- 1 là truy cập vào AP ESP32C3_Config rồi nhập http://192.168.4.1.
+- 2 là kết nối cùng với wifi của ESP32 rồi kiểm tra ip STA khi khởi động ESP32 rồi vào web nhập ip hiện lên trên màn hình OLED (cách này sẽ tiện hơn).
 
 > ⚠️ Lưu ý: Nếu bạn chưa có token, hãy dùng Cách 2.
 
@@ -155,5 +155,5 @@ CLIENT_SECRET = "your_client_secret_here"
 - ESP32-C3 SuperMini → chọn ESP32C3 Dev Module.
 
 ## 7. Một số vấn đề đang tồn tại
-- Để thực hiện được các hành động bâm nút phải giữ lâu khoảng 1 đến 2 giây gì đó
-- Tự động cập nhật token vẫn đang còn bug, chưa tự động cập nhật được, vui lòng chạy file send.py hoặc config qua web 1 cách thủ công
+- Để thực hiện được các hành động bấm nút phải giữ lâu khoảng 1 đến 2 giây gì đó.
+- Tự động cập nhật token vẫn đang còn bug, chưa tự động cập nhật được, vui lòng chạy file send.py hoặc config qua web 1 cách thủ công.
