@@ -124,7 +124,7 @@ preferences.end();
    - Nhấn **Save**.
 
 ### Thêm vào file Python
-Mở file `spotify_pkce_esp32.py` và sửa 2 dòng sau:
+Mở file `send.py` và sửa 2 dòng sau:
 
 ```python
 CLIENT_ID = "your_client_id_here"
