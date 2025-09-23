@@ -129,7 +129,7 @@ preferences.end();
 Để script Python (`spotify_pkce_esp32.py`) hoạt động, bạn cần có **Client ID** và **Client Secret** từ Spotify Developer.
 ![Web Config](web%20config.jpg)
 
-## 5. Cách lấy Client ID / Client Secret để đưa vào send.py để tạo token
+## 5. Cách lấy Client ID / Client Secret để đưa vào send.py và main.ino để tạo token
 1. Vào trang [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).  
 2. Đăng nhập bằng tài khoản Spotify của bạn.  
 3. Nhấn **Create an App** → đặt tên (ví dụ: `ESP32 Controller`).  
