@@ -58,4 +58,7 @@ Dự án sử dụng **Spotify Web API**, với token được cấp phát từ 
   2. Lưu token ra file `token_pkce.json`.
   3. Gửi token sang ESP32 qua HTTP (`/set-config`).
 
+## 3. Sơ đồ mạch
+
+![Sơ đồ mạch](Sơ đồ mạch.png)
 
