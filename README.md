@@ -153,3 +153,7 @@ CLIENT_SECRET = "your_client_secret_here"
 ```
 ## 6. Hướng dẫn biên dịch
 - ESP32-C3 SuperMini → chọn ESP32C3 Dev Module.
+
+## 7. Một số vấn đề đang tồn tại
+- Để thực hiện được các hành động bâm nút phải giữ lâu khoảng 1 đến 2 giây gì đó
+- Tự động cập nhật token vẫn đang còn bug, chưa tự động cập nhật được, vui lòng chạy file send.py hoặc config qua web 1 cách thủ công
