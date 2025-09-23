@@ -403,8 +403,8 @@ void setup() {
     display.display();
 
     preferences.begin("spotify", false);
-    wifiSsid = preferences.getString("wifi_ssid","P810");
-    wifiPass = preferences.getString("wifi_pass","KhongMatKhau");
+    wifiSsid = preferences.getString("wifi_ssid","Wifi_here");
+    wifiPass = preferences.getString("wifi_pass","Pass_here");
     preferences.end();
 
     WiFi.mode(WIFI_AP_STA);
