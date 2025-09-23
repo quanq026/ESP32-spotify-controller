@@ -74,6 +74,9 @@ Dưới đây là 2 cách bạn có thể lựa chọn:
    - **Refresh Token**: Dán refresh token (nếu có).  
    - **WiFi SSID/Password**: Nhập thông tin WiFi STA để ESP32 tự kết nối.  
 5. Bấm **Save** → ESP32 sẽ lưu cấu hình và tự động reboot.
+Chú ý: bạn có 2 cách để truy cập web config:
+- 1 là truy cập vào AP ESP32C3_Config rồi nhập http://192.168.4.1
+- 2 là kết nối cùng với wifi của ESP32 rồi kiểm tra ip STA khi khởi động ESP32 rồi vào web nhập ip hiện lên trên màn hình OLED (cách này sẽ tiện hơn)
 
 > ⚠️ Lưu ý: Nếu bạn chưa có token, hãy dùng Cách 2.
 
@@ -94,10 +97,36 @@ STA IP: 192.168.x.x
 - Trên màn OLED cũng hiển thị IP WiFi STA (nếu kết nối thành công).
 ### 📝 Ghi chú
 - Nếu bạn muốn chỉnh WiFi mặc định trực tiếp trong code (thay vì cấu hình Web UI), hãy sửa đoạn:
-``` cpp
+```cpp
 preferences.begin("spotify", false);
 wifiSsid = preferences.getString("wifi_ssid", "Ten_wifi");
 wifiPass = preferences.getString("wifi_pass", "Mat_khau");
 preferences.end();
 ```
 - Khi đó ESP32 sẽ thử kết nối với WiFi mặc định này nếu chưa có config trong Preferences.
+  ## 5️⃣ Cách lấy Client ID / Client Secret cho Spotify
+
+Để script Python (`spotify_pkce_esp32.py`) hoạt động, bạn cần có **Client ID** và **Client Secret** từ Spotify Developer.
+
+### 5. Cách lấy Client ID / Client Secret để đưa vào send.py để tạo token
+1. Vào trang [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).  
+2. Đăng nhập bằng tài khoản Spotify của bạn.  
+3. Nhấn **Create an App** → đặt tên (ví dụ: `ESP32 Controller`).  
+4. Sau khi tạo xong, mở app bạn vừa tạo:
+   - **Client ID** sẽ hiển thị ngay.  
+   - Nhấn nút **View Client Secret** để lấy **Client Secret**.  
+5. Thêm `Redirect URI`:
+   - Bấm **Edit Settings**.  
+   - Trong phần **Redirect URIs**, thêm:  
+     ```
+     http://127.0.0.1:8000/callback
+     ```
+   - Nhấn **Save**.
+
+### Thêm vào file Python
+Mở file `spotify_pkce_esp32.py` và sửa 2 dòng sau:
+
+```python
+CLIENT_ID = "your_client_id_here"
+CLIENT_SECRET = "your_client_secret_here"
+
