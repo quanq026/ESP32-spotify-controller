@@ -101,7 +101,7 @@ Dưới đây là 2 cách bạn có thể lựa chọn:
 
 ---
 
-### 🔹 Cách 2: Cấu hình tự động bằng Python script
+### 🔹 Cách 2: Cấu hình Token (không bao gồm wifi) Python script (tương lai sẽ update)
 1. Chạy file `send.py` trên PC:
 2. Script sẽ mở trình duyệt để bạn đăng nhập Spotify.
 3. Sau khi đăng nhập thành công, Token sẽ được lưu ở token_pkce.json, Token đồng thời được gửi tự động sang ESP32 qua HTTP (/set-config), ESP32 báo “Configuration Saved! Rebooting…” và khởi động lại.
@@ -123,7 +123,8 @@ wifiPass = preferences.getString("wifi_pass", "Mat_khau");
 preferences.end();
 ```
 - Khi đó ESP32 sẽ thử kết nối với WiFi mặc định này nếu chưa có config trong Preferences.
-  ## 5️⃣ Cách lấy Client ID / Client Secret cho Spotify
+
+## 5. Cách lấy Client ID / Client Secret cho Spotify
 
 Để script Python (`spotify_pkce_esp32.py`) hoạt động, bạn cần có **Client ID** và **Client Secret** từ Spotify Developer.
 ![Web Config](web%20config.jpg)
